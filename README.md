@@ -56,3 +56,14 @@ http://localhost:8080/ws/bank.wsdl
   </soapenv:Body>
 </soapenv:Envelope>
 ```
+### Fonctionnalité ajoutée:
+Withdraw:retrait d'un montant depuis un compte existant
+
+### Fichiers modifiés:
+1/bank.xsd: ajout des élements WithdrawRequest et WithdrawResponse
+2/BankEndPoint.java
+3/BankService.java
+4/application.properties
+
+### Résultat des tests Postman:
+dans le fichier pdf
